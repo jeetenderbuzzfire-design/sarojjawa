@@ -1,39 +1,93 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://www.sarojjawa.com/</loc>
-    <lastmod>2023-10-20</lastmod>
+    <loc>https://www.sarojjawa.in/</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.sarojjawa.com/about.html</loc>
-    <lastmod>2023-10-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://www.sarojjawa.com/services.html</loc>
-    <lastmod>2023-10-20</lastmod>
+    <loc>https://www.sarojjawa.in/numerology-consultation-delhi</loc>
+    <lastmod>2026-09-29</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://www.sarojjawa.com/blog.html</loc>
-    <lastmod>2023-10-20</lastmod>
+    <loc>https://www.sarojjawa.in/astrology-consultation-delhi</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/kundli-checker</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/name-checker</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/services</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/about</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/contact</loc>
+    <lastmod>2026-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/blog</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.sarojjawa.com/how-numerology-changes-life.html</loc>
-    <lastmod>2023-10-10</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://www.sarojjawa.in/blog/what-is-chaldean-numerology</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.sarojjawa.com/contact.html</loc>
-    <lastmod>2023-10-20</lastmod>
+    <loc>https://www.sarojjawa.in/blog/how-to-calculate-your-life-path-number</loc>
+    <lastmod>2026-10-19</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/blog/name-numerology-how-name-numbers-are-calculated</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/blog/vedic-astrology-vs-western-astrology</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/blog/what-is-a-janam-kundli</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.sarojjawa.in/blog/vastu-shastra-for-beginners</loc>
+    <lastmod>2026-10-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
 </urlset>

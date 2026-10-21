@@ -6,4 +6,4 @@ Disallow: /404.html
 Disallow: /thank-you.html
 
 # Sitemaps
-Sitemap: https://www.sarojjawa.com/sitemap.xml
+Sitemap: https://www.sarojjawa.in/sitemap.xml

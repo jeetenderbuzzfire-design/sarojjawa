@@ -3,55 +3,44 @@
   Description: Responsive Styles
 */
 
-/* Tablet & Smaller Devices */
-@media (max-width: 992px) {
-  :root {
-    --spacing-xl: 4rem;
-    --spacing-lg: 3rem;
+/* 1. Compact Desktop & Small Laptops (993px to 1180px) */
+@media (max-width: 1180px) and (min-width: 993px) {
+  .nav-container {
+    padding: 10px 1.25rem;
   }
-
-  h1 { font-size: 2.8rem; }
-  h2 { font-size: 2.2rem; }
-
-  .hero {
-    padding-top: 130px;
+  .nav-logo {
+    height: 40px;
+    max-width: 150px;
   }
-
-  .hero-image-wrap {
-    width: 35%;
-    height: 50%;
-    max-width: 320px;
-    right: 4%;
-    top: 45%;
+  .nav-menu {
+    gap: 0.85rem;
   }
-
-  .about-grid {
-    grid-template-columns: 1fr;
+  .nav-link {
+    font-size: 0.88rem;
   }
-
-  .about-image {
-    max-width: 500px;
-    margin: 0 auto;
+  .nav-menu .btn {
+    padding: 8px 14px;
+    font-size: 0.84rem;
   }
-
-  .form-row {
-    grid-template-columns: 1fr;
+  .hero-container {
+    gap: 2rem;
   }
 }
 
-/* Mobile Devices */
-@media (max-width: 768px) {
+/* 2. Tablet & Medium Devices (<= 992px) */
+@media (max-width: 992px) {
   :root {
-    --spacing-md: 1.5rem;
+    --spacing-xl: 3.5rem;
+    --spacing-lg: 2.5rem;
   }
 
-  h1 { font-size: 2.2rem; }
-  h2 { font-size: 1.8rem; }
-  h3 { font-size: 1.5rem; }
+  h1 { font-size: 2.6rem; }
+  h2 { font-size: 2.1rem; }
 
-  /* Header & Mobile Menu */
+  /* Mobile Navigation Drawer Activation */
   .mobile-menu-btn {
     display: block;
+    z-index: 1001;
   }
 
   .nav-menu {
@@ -64,47 +53,169 @@
     flex-direction: column;
     align-items: center;
     padding-top: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
     transition: var(--transition);
-    box-shadow: inset 0 5px 10px rgba(0,0,0,0.05);
+    box-shadow: inset 0 5px 10px rgba(0, 0, 0, 0.05);
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    gap: 1.25rem;
   }
 
   .nav-menu.active {
     left: 0;
   }
 
-  .nav-menu .btn {
-    margin-top: var(--spacing-md);
+  .nav-menu .nav-link {
+    font-size: 1.05rem;
   }
 
-  /* Hero */
-  .hero {
-    flex-direction: column;
+  .nav-menu .btn {
+    margin-top: var(--spacing-sm);
+    width: auto;
+    min-width: 200px;
     text-align: center;
-    padding-top: 130px;
+  }
+
+  /* Mobile Dropdowns */
+  .nav-menu .dropdown {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu .dropdown-menu {
+    position: static !important;
+    float: none;
+    box-shadow: none;
+    background: rgba(94, 53, 177, 0.06);
+    border-radius: var(--border-radius);
+    margin: 8px auto;
+    width: 85%;
+    max-width: 320px;
+    padding: 6px 0;
+    display: none;
+  }
+
+  .nav-menu .dropdown-menu.show {
+    display: block !important;
+  }
+
+  .nav-menu .dropdown-menu a {
+    padding: 10px 15px;
+    font-size: 0.92rem;
+    color: var(--color-dark);
+    text-align: center;
+  }
+
+  .dropdown:hover .dropdown-menu {
+    display: none;
+  }
+
+  .dropdown:hover .dropdown-menu.show {
+    display: block !important;
+  }
+
+  /* Hero Section for Tablet */
+  .hero {
+    padding-top: 105px;
+    padding-bottom: 50px;
+    min-height: auto;
     height: auto;
   }
 
+  .hero-container {
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 1.75rem;
+    align-items: center;
+  }
+
   .hero-content {
-    margin: 0 auto;
-    padding: var(--spacing-lg) 0;
+    max-width: 100%;
   }
 
   .hero-image-wrap {
     position: relative;
-    width: 80%;
-    max-width: 280px;
-    height: 280px;
-    margin: 15px auto 0;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
     right: auto;
-    bottom: auto;
     top: auto;
+    bottom: auto;
     transform: none;
-    -webkit-mask-image: none;
-    mask-image: none;
   }
 
-  .hero-video-element {
-    object-position: center center;
+  .hero-video-element, .hero-image-wrap img {
+    max-height: 400px;
+  }
+
+  /* About Grid */
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .about-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* 3. Mobile Devices (<= 768px) */
+@media (max-width: 768px) {
+  :root {
+    --spacing-md: 1.5rem;
+  }
+
+  h1 { font-size: 2.1rem; }
+  h2 { font-size: 1.8rem; }
+  h3 { font-size: 1.45rem; }
+
+  /* Hero Stacking on Mobile */
+  .hero {
+    padding-top: 95px;
+    padding-bottom: 45px;
+    text-align: center;
+  }
+
+  .hero-container {
+    grid-template-columns: 1fr;
+    gap: 1.75rem;
+    text-align: center;
+  }
+
+  .hero-content {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+  }
+
+  .hero h1 {
+    font-size: clamp(1.65rem, 5vw, 2.1rem);
+  }
+
+  .hero-content p {
+    font-size: 0.96rem;
+  }
+
+  .hero-cta-buttons {
+    justify-content: center;
+    margin-top: 1.25rem;
+    gap: 12px;
+  }
+
+  .hero-image-wrap {
+    position: relative;
+    width: 100%;
+    max-width: 270px;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .hero-video-element, .hero-image-wrap img {
+    max-height: 330px;
   }
 
   /* Footer */
@@ -118,12 +229,42 @@
   }
 }
 
-/* Small Mobile */
+/* 4. Small Mobile (<= 480px) */
 @media (max-width: 480px) {
-  .hero-image-wrap {
-    height: 300px;
+  .hero {
+    padding-top: 85px;
+    padding-bottom: 35px;
   }
-  
+
+  .hero h1 {
+    font-size: 1.6rem;
+    line-height: 1.25;
+  }
+
+  .hero-content p {
+    font-size: 0.92rem;
+  }
+
+  .hero-cta-buttons {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .hero-cta-buttons .btn {
+    width: 100%;
+    padding: 11px 20px;
+    font-size: 0.9rem;
+  }
+
+  .hero-image-wrap {
+    max-width: 240px;
+  }
+
+  .hero-video-element, .hero-image-wrap img {
+    max-height: 290px;
+  }
+
   .btn {
     width: 100%;
   }
@@ -138,4 +279,120 @@
     height: 45px;
     font-size: 1.2rem;
   }
+
+  /* Prevent Mystic Sphere matrix from causing horizontal overflow */
+  .about-image {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+  }
+
+  .mystic-sphere-wrap {
+    transform: scale(0.82);
+    transform-origin: center center;
+    margin: -20px auto;
+  }
 }
+
+/* 5. Extra Small Mobile (<= 375px) */
+@media (max-width: 375px) {
+  .hero h1 {
+    font-size: 1.45rem;
+  }
+
+  .hero-subtitle {
+    font-size: 0.8rem;
+  }
+
+  .hero-image-wrap {
+    max-width: 210px;
+  }
+
+  .hero-video-element, .hero-image-wrap img {
+    max-height: 250px;
+  }
+
+  .floating-element {
+    width: 38px;
+    height: 38px;
+    font-size: 0.95rem;
+  }
+
+  .mystic-sphere-wrap {
+    transform: scale(0.7);
+    transform-origin: center center;
+    margin: -35px auto;
+  }
+}
+
+/* 6. Tiny Mobile (<= 330px) */
+@media (max-width: 330px) {
+  .hero h1 {
+    font-size: 1.35rem;
+  }
+
+  .hero-image-wrap {
+    max-width: 190px;
+  }
+
+  .mystic-sphere-wrap {
+    transform: scale(0.62);
+    transform-origin: center center;
+    margin: -45px auto;
+  }
+}
+
+/* Blog & Article Responsive Rules */
+@media (max-width: 992px) {
+  .blog-featured-card {
+    grid-template-columns: 1fr;
+  }
+  .blog-featured-img-wrap {
+    min-height: 240px;
+    max-height: 300px;
+  }
+  .blog-featured-body {
+    padding: var(--spacing-md);
+  }
+  .article-layout {
+    grid-template-columns: 1fr;
+  }
+  .article-sidebar {
+    position: static;
+    margin-top: var(--spacing-lg);
+  }
+  .article-h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+  .blog-featured-title {
+    font-size: 1.5rem;
+  }
+  .article-h1 {
+    font-size: 1.85rem;
+  }
+  .article-hero-wrap {
+    aspect-ratio: 16 / 10;
+  }
+  .author-bio-card {
+    flex-direction: column;
+    text-align: center;
+  }
+  .category-filter-nav {
+    justify-content: flex-start;
+    overflow-x: auto;
+    padding-bottom: 8px;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .filter-btn {
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+}
+

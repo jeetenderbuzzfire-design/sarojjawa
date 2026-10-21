@@ -1,0 +1,664 @@
+[
+  {
+    "birth_details": {
+      "dob": "1990-01-15",
+      "place": "Delhi, India",
+      "time": "10:30"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [
+        "Ju"
+      ],
+      "5": [],
+      "6": [
+        "Mo"
+      ],
+      "7": [],
+      "8": [],
+      "9": [
+        "Ma"
+      ],
+      "10": [
+        "Me",
+        "Sa"
+      ],
+      "11": [
+        "Su",
+        "Ve"
+      ],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Jupiter",
+      "rashi": "Meen (Pisces)",
+      "rashi_no": 12
+    },
+    "name": "Test1",
+    "planets": [
+      {
+        "degree": 1.21,
+        "house": 11,
+        "name": "Sun",
+        "sign": "Makar (Capricorn)"
+      },
+      {
+        "degree": 19.71,
+        "house": 6,
+        "name": "Moon",
+        "sign": "Simha (Leo)"
+      },
+      {
+        "degree": 26.13,
+        "house": 9,
+        "name": "Mars",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 17.99,
+        "house": 10,
+        "name": "Mercury",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 9.83,
+        "house": 4,
+        "name": "Jupiter",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 7.29,
+        "house": 11,
+        "name": "Venus",
+        "sign": "Makar (Capricorn)"
+      },
+      {
+        "degree": 23.71,
+        "house": 10,
+        "name": "Saturn",
+        "sign": "Dhanu (Sagittarius)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "1985-06-20",
+      "place": "Mumbai, India",
+      "time": "14:45"
+    },
+    "houses_grid": {
+      "1": [
+        "Sa"
+      ],
+      "2": [],
+      "3": [],
+      "4": [
+        "Ju"
+      ],
+      "5": [],
+      "6": [],
+      "7": [
+        "Ve"
+      ],
+      "8": [],
+      "9": [
+        "Su",
+        "Mo",
+        "Ma",
+        "Me"
+      ],
+      "10": [],
+      "11": [],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Venus",
+      "rashi": "Tula (Libra)",
+      "rashi_no": 7
+    },
+    "name": "Test2",
+    "planets": [
+      {
+        "degree": 5.55,
+        "house": 9,
+        "name": "Sun",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 27.62,
+        "house": 9,
+        "name": "Moon",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 13.83,
+        "house": 9,
+        "name": "Mars",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 20.16,
+        "house": 9,
+        "name": "Mercury",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 23.15,
+        "house": 4,
+        "name": "Jupiter",
+        "sign": "Makar (Capricorn)"
+      },
+      {
+        "degree": 19.99,
+        "house": 7,
+        "name": "Venus",
+        "sign": "Mesh (Aries)"
+      },
+      {
+        "degree": 29.01,
+        "house": 1,
+        "name": "Saturn",
+        "sign": "Tula (Libra)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "2000-11-05",
+      "place": "Kolkata, India",
+      "time": "08:15"
+    },
+    "houses_grid": {
+      "1": [
+        "Ve"
+      ],
+      "2": [],
+      "3": [
+        "Mo"
+      ],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [
+        "Ju",
+        "Sa"
+      ],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": [
+        "Ma"
+      ],
+      "12": [
+        "Su",
+        "Me"
+      ]
+    },
+    "lagna": {
+      "lord": "Mars",
+      "rashi": "Vrishchik (Scorpio)",
+      "rashi_no": 8
+    },
+    "name": "Test3",
+    "planets": [
+      {
+        "degree": 19.14,
+        "house": 12,
+        "name": "Sun",
+        "sign": "Tula (Libra)"
+      },
+      {
+        "degree": 28.24,
+        "house": 3,
+        "name": "Moon",
+        "sign": "Makar (Capricorn)"
+      },
+      {
+        "degree": 6.78,
+        "house": 11,
+        "name": "Mars",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 6.94,
+        "house": 12,
+        "name": "Mercury",
+        "sign": "Tula (Libra)"
+      },
+      {
+        "degree": 15.23,
+        "house": 7,
+        "name": "Jupiter",
+        "sign": "Vrishabh (Taurus)"
+      },
+      {
+        "degree": 26.55,
+        "house": 1,
+        "name": "Venus",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 4.79,
+        "house": 7,
+        "name": "Saturn",
+        "sign": "Vrishabh (Taurus)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "1978-03-12",
+      "place": "Bengaluru, India",
+      "time": "22:00"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [],
+      "3": [],
+      "4": [],
+      "5": [
+        "Su"
+      ],
+      "6": [
+        "Me",
+        "Ve"
+      ],
+      "7": [
+        "Mo"
+      ],
+      "8": [],
+      "9": [
+        "Ma",
+        "Ju"
+      ],
+      "10": [],
+      "11": [
+        "Sa"
+      ],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Venus",
+      "rashi": "Tula (Libra)",
+      "rashi_no": 7
+    },
+    "name": "Test4",
+    "planets": [
+      {
+        "degree": 28.5,
+        "house": 5,
+        "name": "Sun",
+        "sign": "Kumbh (Aquarius)"
+      },
+      {
+        "degree": 11.82,
+        "house": 7,
+        "name": "Moon",
+        "sign": "Mesh (Aries)"
+      },
+      {
+        "degree": 29.66,
+        "house": 9,
+        "name": "Mars",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 10.89,
+        "house": 6,
+        "name": "Mercury",
+        "sign": "Meen (Pisces)"
+      },
+      {
+        "degree": 3.53,
+        "house": 9,
+        "name": "Jupiter",
+        "sign": "Mithun (Gemini)"
+      },
+      {
+        "degree": 10.5,
+        "house": 6,
+        "name": "Venus",
+        "sign": "Meen (Pisces)"
+      },
+      {
+        "degree": 2.02,
+        "house": 11,
+        "name": "Saturn",
+        "sign": "Simha (Leo)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "1995-09-25",
+      "place": "Chennai, India",
+      "time": "04:30"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [
+        "Su",
+        "Mo",
+        "Me",
+        "Ve"
+      ],
+      "3": [
+        "Ma"
+      ],
+      "4": [
+        "Ju"
+      ],
+      "5": [],
+      "6": [],
+      "7": [
+        "Sa"
+      ],
+      "8": [],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Sun",
+      "rashi": "Simha (Leo)",
+      "rashi_no": 5
+    },
+    "name": "Test5",
+    "planets": [
+      {
+        "degree": 7.7,
+        "house": 2,
+        "name": "Sun",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 11.73,
+        "house": 2,
+        "name": "Moon",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 18.15,
+        "house": 3,
+        "name": "Mars",
+        "sign": "Tula (Libra)"
+      },
+      {
+        "degree": 26.09,
+        "house": 2,
+        "name": "Mercury",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 15.84,
+        "house": 4,
+        "name": "Jupiter",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 17.16,
+        "house": 2,
+        "name": "Venus",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 26.83,
+        "house": 7,
+        "name": "Saturn",
+        "sign": "Kumbh (Aquarius)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "2000-01-01",
+      "place": "Delhi, India",
+      "time": "00:30"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [
+        "Mo"
+      ],
+      "3": [
+        "Ve"
+      ],
+      "4": [
+        "Su",
+        "Me"
+      ],
+      "5": [],
+      "6": [
+        "Ma"
+      ],
+      "7": [],
+      "8": [
+        "Ju",
+        "Sa"
+      ],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Mercury",
+      "rashi": "Kanya (Virgo)",
+      "rashi_no": 6
+    },
+    "name": "Test6_Midnight",
+    "planets": [
+      {
+        "degree": 15.8,
+        "house": 4,
+        "name": "Sun",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 11.75,
+        "house": 2,
+        "name": "Moon",
+        "sign": "Tula (Libra)"
+      },
+      {
+        "degree": 3.57,
+        "house": 6,
+        "name": "Mars",
+        "sign": "Kumbh (Aquarius)"
+      },
+      {
+        "degree": 6.94,
+        "house": 4,
+        "name": "Mercury",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 1.38,
+        "house": 8,
+        "name": "Jupiter",
+        "sign": "Mesh (Aries)"
+      },
+      {
+        "degree": 6.86,
+        "house": 3,
+        "name": "Venus",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 16.56,
+        "house": 8,
+        "name": "Saturn",
+        "sign": "Mesh (Aries)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "1999-12-31",
+      "place": "Mumbai, India",
+      "time": "23:45"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [
+        "Mo"
+      ],
+      "3": [
+        "Ve"
+      ],
+      "4": [
+        "Su",
+        "Me"
+      ],
+      "5": [],
+      "6": [
+        "Ma"
+      ],
+      "7": [],
+      "8": [
+        "Ju",
+        "Sa"
+      ],
+      "9": [],
+      "10": [],
+      "11": [],
+      "12": []
+    },
+    "lagna": {
+      "lord": "Mercury",
+      "rashi": "Kanya (Virgo)",
+      "rashi_no": 6
+    },
+    "name": "Test7_YearEnd",
+    "planets": [
+      {
+        "degree": 15.78,
+        "house": 4,
+        "name": "Sun",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 11.27,
+        "house": 2,
+        "name": "Moon",
+        "sign": "Tula (Libra)"
+      },
+      {
+        "degree": 3.56,
+        "house": 6,
+        "name": "Mars",
+        "sign": "Kumbh (Aquarius)"
+      },
+      {
+        "degree": 6.91,
+        "house": 4,
+        "name": "Mercury",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 1.39,
+        "house": 8,
+        "name": "Jupiter",
+        "sign": "Mesh (Aries)"
+      },
+      {
+        "degree": 6.84,
+        "house": 3,
+        "name": "Venus",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 16.58,
+        "house": 8,
+        "name": "Saturn",
+        "sign": "Mesh (Aries)"
+      }
+    ]
+  },
+  {
+    "birth_details": {
+      "dob": "2005-01-01",
+      "place": "Kolkata, India",
+      "time": "01:00"
+    },
+    "houses_grid": {
+      "1": [],
+      "2": [
+        "Ma",
+        "Me",
+        "Ve"
+      ],
+      "3": [
+        "Su"
+      ],
+      "4": [],
+      "5": [],
+      "6": [],
+      "7": [],
+      "8": [],
+      "9": [],
+      "10": [
+        "Sa"
+      ],
+      "11": [
+        "Mo"
+      ],
+      "12": [
+        "Ju"
+      ]
+    },
+    "lagna": {
+      "lord": "Venus",
+      "rashi": "Tula (Libra)",
+      "rashi_no": 7
+    },
+    "name": "Test8_UTC_PrevYear",
+    "planets": [
+      {
+        "degree": 16.49,
+        "house": 3,
+        "name": "Sun",
+        "sign": "Dhanu (Sagittarius)"
+      },
+      {
+        "degree": 13.6,
+        "house": 11,
+        "name": "Moon",
+        "sign": "Simha (Leo)"
+      },
+      {
+        "degree": 10.23,
+        "house": 2,
+        "name": "Mars",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 24.21,
+        "house": 2,
+        "name": "Mercury",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 23.28,
+        "house": 12,
+        "name": "Jupiter",
+        "sign": "Kanya (Virgo)"
+      },
+      {
+        "degree": 24.88,
+        "house": 2,
+        "name": "Venus",
+        "sign": "Vrishchik (Scorpio)"
+      },
+      {
+        "degree": 0.96,
+        "house": 10,
+        "name": "Saturn",
+        "sign": "Kark (Cancer)"
+      }
+    ]
+  }
+]
